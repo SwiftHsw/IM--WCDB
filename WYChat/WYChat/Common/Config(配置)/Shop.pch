@@ -1,0 +1,45 @@
+//
+//  Shop.pch
+//  WYChat
+//
+//  Created by 黄世文 on 2021/10/11.
+//
+
+#ifndef Shop_pch
+#define Shop_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import <SWKit.h>
+#import <SDAutoLayout.h>
+#import <MJRefresh.h>
+#import <MJExtension.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <LSTPopView.h>
+#import <MBProgressHUD.h>
+#import "MBProgressHUD+Extension.h"
+
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <SDWebImage.h>
+#import <TZImagePickerController/TZImagePickerController.h>
+#import "WYNetWorkManager.h"
+#import "WYAppSingle.h"
+#import "UIViewController+MBExtension.h" 
+#import "API.h"
+#import "TypeEnum.h"
+#import <WXApi.h>
+#import "Macros.h"
+
+
+//IM
+#import <YYKit.h>
+#import "WYIMFileManager.h"
+#import "NSString+SIM.h"
+#import "UIImage+CIM.h"
+#import "WYIMConversationModel.h"
+#import <SRWebSocket.h>
+
+
+#endif /* Shop_pch */

@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+
+
+pod 'SWKit' 
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'MJExtension'
+pod 'MBProgressHUD'
+pod 'IQKeyboardManager'
+pod 'TZImagePickerController'
+pod 'JXCategoryView' 
+pod 'LSTPopView'
+pod 'WechatOpenSDK'
+pod 'YYKit'
+pod 'SocketRocket'
+pod 'WCDB'
+
+ target 'WYChat' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WYChat
+
+end

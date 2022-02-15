@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>需要您的许可才能访问麦克风以发送语音信息</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>雯玥IM</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>需要您的允许才能使用正常使用相机，用于拍摄照片。若不允许，相机将无法正常使用，无法拍摄照片。</string>
+	<key>NSContactsUsageDescription</key>
+	<string>购靓号需要您的允许获取您的通讯录。若不允许，购靓号将无法正常使用。</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>购靓号需要获取您的位置，用于获取可申请的商品。若不允许，购靓号将无法正常使用。</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>购靓号需要获取您的位置，用于获取可申请的商品。若不允许，购靓号将无法正常使用。</string>
+	<key>NSLocationUsageDescription</key>
+	<string>购靓号需要获取您的位置，用于获取可申请的商品。若不允许，购靓号将无法正常使用。</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>购靓号需要获取您的位置，用于获取可申请的商品。若不允许，购靓号联盟将无法正常使用。</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>购靓号需要您的允许才能正常使用相册，用于选择或保存相册图片。若不允许，相册将无法正常使用，无法选择相册图片。</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>User Interface Style</key>
+	<string>Light</string>
+</dict>
+</plist>
